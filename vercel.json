@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "taime.axu.dev"
+        }
+      ],
+      "destination": "https://taime-primary.vercel.app/",
+      "permanent": false
+    }
+  ]
+}
