@@ -21,6 +21,17 @@
       ],
       "destination": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
       "permanent": false
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "slack.pinewood.one"
+        }
+      ],
+      "destination": "https://join.slack.com/t/pinewoodroboticsgroup/shared_invite/zt-3coxmq6ie-02eRfEGLq0uHFRNAhMpeZA",
+      "permanent": false
     }
   ]
 }
