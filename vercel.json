@@ -32,6 +32,17 @@
       ],
       "destination": "https://join.slack.com/t/pinewoodroboticsgroup/shared_invite/zt-3coxmq6ie-02eRfEGLq0uHFRNAhMpeZA",
       "permanent": false
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "list.pinewood.one"
+        }
+      ],
+      "destination": "https://pinewoodroboticsgroup.slack.com/docs/T09DBUR4YER/F09F04ZQJTD",
+      "permanent": false
     }
   ]
 }
